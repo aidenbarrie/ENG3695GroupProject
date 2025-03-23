@@ -1,0 +1,329 @@
+.troubleshooting {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.troubleshooting .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 2115px;
+  position: relative;
+}
+
+.troubleshooting .text-wrapper {
+  position: absolute;
+  width: 625px;
+  top: 856px;
+  left: 80px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.troubleshooting .copy {
+  width: 515px;
+  height: 613px;
+  gap: 14px;
+  position: absolute;
+  top: 164px;
+  left: 845px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.troubleshooting .product-name {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48.0px;
+}
+
+.troubleshooting .description {
+  position: relative;
+  align-self: stretch;
+  height: 507px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: #000000;
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.troubleshooting .image {
+  position: absolute;
+  width: 625px;
+  height: 613px;
+  top: 164px;
+  left: 80px;
+  border-radius: 12px;
+  background-image: url("https://cdn.animaapp.com/projects/67e013be3e602f4ae5b457fb/releases/67e01fb0865e95e2df4138dd/img/image-24.svg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.troubleshooting .navigation {
+  position: absolute;
+  width: 1440px;
+  height: 153px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.troubleshooting .items {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--variable-collection-spacing-m);
+  position: absolute;
+  top: 56px;
+  left: 795px;
+}
+
+.troubleshooting .navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--variable-collection-spacing-m);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.troubleshooting .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: #000000;
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  white-space: nowrap;
+  font-style: var(--body-text-font-style);
+}
+
+.troubleshooting .home {
+  position: absolute;
+  width: 111px;
+  height: 56px;
+  top: 45px;
+  left: 80px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.troubleshooting .span {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.troubleshooting .text-wrapper-3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.troubleshooting .card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1282px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px 32px;
+  position: absolute;
+  top: 937px;
+  left: 80px;
+}
+
+.troubleshooting .card {
+  display: flex;
+  flex-direction: column;
+  width: 404px;
+  height: 366px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.troubleshooting .copy-2 {
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -28.00px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.troubleshooting .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 230px;
+}
+
+.troubleshooting .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.troubleshooting .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: #828282;
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.troubleshooting .copy-3 {
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.troubleshooting .image-2 {
+  position: relative;
+  width: 404px;
+  height: 231px;
+}
+
+.troubleshooting .image-3 {
+  position: relative;
+  width: 400px;
+  height: 209px;
+}
+
+.troubleshooting .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.troubleshooting .card-2 {
+  display: flex;
+  flex-direction: column;
+  width: 404px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.troubleshooting .image-4 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 314.21px;
+}
+
+.troubleshooting .copy-4 {
+  height: 273px;
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.troubleshooting .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  height: 230px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: #828282;
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.troubleshooting .image-5 {
+  position: relative;
+  width: 405px;
+  height: 405px;
+  margin-right: -1.00px;
+  object-fit: cover;
+}
+
+.troubleshooting .copy-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 404px;
+  height: 392px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.troubleshooting .image-6 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 252.75px;
+  margin-top: -126.88px;
+}
+
+.troubleshooting .remove-the-device {
+  position: relative;
+  align-self: stretch;
+  height: 230px;
+  margin-bottom: -125.88px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: #828282;
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}

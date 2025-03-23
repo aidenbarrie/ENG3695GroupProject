@@ -1,0 +1,308 @@
+.user-guide {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .user-guide .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 2763px;
+    position: relative;
+  }
+  
+  .user-guide .text-wrapper {
+    position: absolute;
+    width: 625px;
+    top: 2092px;
+    left: 83px;
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    color: #000000;
+    font-size: var(--heading-font-size);
+    letter-spacing: var(--heading-letter-spacing);
+    line-height: var(--heading-line-height);
+    font-style: var(--heading-font-style);
+  }
+  
+  .user-guide .paragraph {
+    position: absolute;
+    width: 842px;
+    top: 1715px;
+    left: 299px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .user-guide .span {
+    font-weight: var(--body-text-font-weight);
+    line-height: var(--body-text-line-height);
+    font-family: var(--body-text-font-family);
+    font-style: var(--body-text-font-style);
+    letter-spacing: var(--body-text-letter-spacing);
+    font-size: var(--body-text-font-size);
+  }
+  
+  .user-guide .images {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 1227px;
+    left: 81px;
+  }
+  
+  .user-guide .image {
+    position: relative;
+    width: 624px;
+    height: 436px;
+    border-radius: 8px;
+    background: url(https://c.animaapp.com/m8kj2k1r8ZH5rI/img/image-1.png) 50% 50% / cover;
+  }
+  
+  .user-guide .image-2 {
+    position: relative;
+    width: 624px;
+    height: 436px;
+    border-radius: 8px;
+    background-image: url(https://c.animaapp.com/m8kj2k1r8ZH5rI/img/image-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .user-guide .image-3 {
+    position: absolute;
+    width: 1281px;
+    height: 650px;
+    top: 497px;
+    left: 80px;
+    border-radius: 8px;
+    background: url(https://c.animaapp.com/m8kj2k1r8ZH5rI/img/image.png) 50% 50% / cover;
+  }
+  
+  .user-guide .article-title {
+    display: flex;
+    flex-direction: column;
+    width: 733px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    position: absolute;
+    top: 244px;
+    left: 80px;
+  }
+  
+  .user-guide .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    color: #000000;
+    font-size: var(--title-font-size);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    font-style: var(--title-font-style);
+  }
+  
+  .user-guide .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--subheading-font-family);
+    font-weight: var(--subheading-font-weight);
+    color: #000000bf;
+    font-size: var(--subheading-font-size);
+    letter-spacing: var(--subheading-letter-spacing);
+    line-height: var(--subheading-line-height);
+    font-style: var(--subheading-font-style);
+  }
+  
+  .user-guide .navigation {
+    position: absolute;
+    width: 1440px;
+    height: 153px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .user-guide .navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+    position: absolute;
+    top: 56px;
+    left: 795px;
+  }
+  
+  .user-guide .span-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .user-guide .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    white-space: nowrap;
+    font-style: var(--body-text-font-style);
+  }
+  
+  .user-guide .home {
+    position: absolute;
+    width: 111px;
+    height: 56px;
+    top: 45px;
+    left: 80px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .user-guide .text-wrapper-4 {
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .user-guide .text-wrapper-5 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .user-guide .cards {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 2185px;
+    left: 84px;
+  }
+  
+  .user-guide .card {
+    display: flex;
+    flex-direction: column;
+    width: 404px;
+    height: 434px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .user-guide .image-4 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 8px;
+    background: url(https://c.animaapp.com/m8kj2k1r8ZH5rI/img/image-3.png) 50% 50% / cover,
+      linear-gradient(0deg, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 100%);
+  }
+  
+  .user-guide .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .user-guide .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .user-guide .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    height: 150px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #828282;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .user-guide .image-5 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 8px;
+    background-image: url(https://c.animaapp.com/m8kj2k1r8ZH5rI/img/image-4.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .user-guide .text-wrapper-8 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #828282;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .user-guide .image-6 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 8px;
+    background-image: url(https://c.animaapp.com/m8kj2k1r8ZH5rI/img/image-5.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  

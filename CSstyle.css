@@ -1,0 +1,370 @@
+.contact-us {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contact-us .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1788px;
+    position: relative;
+  }
+  
+  .contact-us .copy {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 244px;
+    left: 80px;
+  }
+  
+  .contact-us .text-wrapper {
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--title-font-family);
+    color: #000000;
+    font-style: var(--title-font-style);
+  }
+  
+  .contact-us .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--subheading-font-family);
+    font-weight: var(--subheading-font-weight);
+    color: #828282;
+    font-size: var(--subheading-font-size);
+    letter-spacing: var(--subheading-letter-spacing);
+    line-height: var(--subheading-line-height);
+    font-style: var(--subheading-font-style);
+  }
+  
+  .contact-us .paragraph {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .contact-us .navigation {
+    position: absolute;
+    width: 1440px;
+    height: 153px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .contact-us .items {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+    position: absolute;
+    top: 56px;
+    left: 795px;
+  }
+  
+  .contact-us .navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .contact-us .user-guide {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .contact-us .span {
+    font-weight: var(--body-text-font-weight);
+    line-height: var(--body-text-line-height);
+    font-family: var(--body-text-font-family);
+    font-style: var(--body-text-font-style);
+    letter-spacing: var(--body-text-letter-spacing);
+    font-size: var(--body-text-font-size);
+  }
+  
+  .contact-us .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    white-space: nowrap;
+    font-style: var(--body-text-font-style);
+  }
+  
+  .contact-us .home {
+    position: absolute;
+    width: 111px;
+    height: 56px;
+    top: 37px;
+    left: 80px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .contact-us .text-wrapper-3 {
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .contact-us .text-wrapper-4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .contact-us .form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 626px;
+    align-items: flex-start;
+    gap: 24px 32px;
+    position: absolute;
+    top: 722px;
+    left: 80px;
+  }
+  
+  .contact-us .input,
+  .contact-us .input-2,
+  .contact-us .input-3,
+  .contact-us .input-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .contact-us .input,
+  .contact-us .input-2 {
+    width: 295px;
+  }
+  
+  .contact-us .input-3,
+  .contact-us .input-4 {
+    width: 626px;
+  }
+  
+  .contact-us .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+    color: #000000;
+    font-size: var(--small-text-font-size);
+    letter-spacing: var(--small-text-letter-spacing);
+    line-height: var(--small-text-line-height);
+    font-style: var(--small-text-font-style);
+  }
+  
+  .contact-us .field {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    box-shadow: var(--button-shadow);
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+    color: #828282;
+    font-size: var(--small-text-font-size);
+    letter-spacing: var(--small-text-letter-spacing);
+    line-height: var(--small-text-line-height);
+    font-style: var(--small-text-font-style);
+  }
+  
+  .contact-us .textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .contact-us .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: var(--button-shadow);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-us .button:hover {
+    background-color: #333333;
+  }
+  
+  .contact-us .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #ffffff;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    white-space: nowrap;
+    font-style: var(--body-text-font-style);
+  }
+  
+  .contact-us .heading {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 642px;
+    left: 80px;
+  }
+  
+  .contact-us .text-wrapper-7 {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter", Helvetica;
+    color: #000000;
+  }
+  
+  .contact-us .card {
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+    height: 452px;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 270px;
+    left: 799px;
+  }
+  
+  .contact-us .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 447px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 1440px) {
+    .contact-us .div {
+      width: 100%;
+    }
+  
+    .contact-us .navigation {
+      width: 100%;
+    }
+  
+    .contact-us .items {
+      left: auto;
+      right: 80px;
+    }
+  
+    .contact-us .card {
+      left: auto;
+      right: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-us .div {
+      height: auto;
+    }
+  
+    .contact-us .copy,
+    .contact-us .form,
+    .contact-us .heading {
+      position: static;
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .contact-us .navigation {
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .contact-us .items {
+      position: static;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .contact-us .home {
+      position: static;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .contact-us .card {
+      position: static;
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .contact-us .input,
+    .contact-us .input-2,
+    .contact-us .input-3,
+    .contact-us .input-4 {
+      width: 100%;
+    }
+  }
+   
